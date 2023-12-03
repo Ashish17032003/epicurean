@@ -8,6 +8,7 @@ Before you begin, ensure you have met the following requirements:
 
 - Node.js installed on your machine.
 - npm package manager.
+- This json server package is installed globally with the command npm install -g json-server
 
 ## Getting Started
 
