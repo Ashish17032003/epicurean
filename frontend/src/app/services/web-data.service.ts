@@ -50,13 +50,23 @@ export class WebDataService {
     return this.http.get(url);
   }
 
-  getMenuCategories(): Observable<any> {
-    const url = `${this.baseUrl}/categories`;
+  getArtisanalAppetizers(): Observable<any> {
+    const url = `${this.baseUrl}/ArtisanalAppetizers`;
+    return this.http.get(url);
+  }
+
+  getGlobalFusionEntrees(): Observable<any> {
+    const url = `${this.baseUrl}/GlobalFusionEntrees`;
+    return this.http.get(url);
+  }
+
+  getEpicureanIndulgences(): Observable<any> {
+    const url = `${this.baseUrl}/EpicureanIndulgences`;
     return this.http.get(url);
   }
 
   getSeasonalMenu(): Observable<any> {
-    const url = `${this.baseUrl}/seasonal_menu`;
+    const url = `${this.baseUrl}/SeasonalSymphony`;
     return this.http.get(url);
   }
 }

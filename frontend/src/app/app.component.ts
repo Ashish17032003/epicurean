@@ -15,8 +15,14 @@ export class AppComponent implements OnInit {
   eventsData: any;
   onlinePresenceData: any;
   reviewsData: any;
-  menuCategoriesData: any;
+ 
   seasonalMenuData: any;
+  artisanalAppetizersData: any;
+  globalFusionEntreesData: any;
+  epicureanIndulgencesData: any;
+ 
+  
+
 
   constructor(private webDataService: WebDataService) {}
 
@@ -61,8 +67,18 @@ export class AppComponent implements OnInit {
       console.log(data);
     });
 
-    this.webDataService.getMenuCategories().subscribe((data) => {
-      this.menuCategoriesData = data;
+    this.webDataService.getArtisanalAppetizers().subscribe((data) => {
+      this.artisanalAppetizersData = data;
+      console.log(data);
+    });
+
+    this.webDataService.getGlobalFusionEntrees().subscribe((data) => {
+      this.globalFusionEntreesData = data;
+      console.log(data);
+    });
+
+    this.webDataService.getEpicureanIndulgences().subscribe((data) => {
+      this.epicureanIndulgencesData = data;
       console.log(data);
     });
 
@@ -70,5 +86,7 @@ export class AppComponent implements OnInit {
       this.seasonalMenuData = data;
       console.log(data);
     });
+
+    
   }
 }

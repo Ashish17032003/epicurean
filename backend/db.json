@@ -33,22 +33,20 @@
     "description": "Epicurean Symphony offers a sophisticated and cozy ambiance, with contemporary decor and soft lighting, creating the perfect setting for an unforgettable dining experience."
   },
 
-  "sustainability": {
-    "initiatives": [
-      {
-        "name": "Farm-to-Table",
-        "description": "We source our ingredients locally to support farmers and ensure the freshest, seasonal produce in our dishes."
-      },
-      {
-        "name": "Waste Reduction",
-        "description": "We prioritize reducing food waste through careful portioning, composting, and recycling practices."
-      },
-      {
-        "name": "Ocean-Friendly Seafood",
-        "description": "We are committed to serving sustainably sourced seafood to promote the health of our oceans and marine life."
-      }
-    ]
-  },
+  "sustainability": [
+    {
+      "name": "Farm-to-Table",
+      "description": "We source our ingredients locally to support farmers and ensure the freshest, seasonal produce in our dishes."
+    },
+    {
+      "name": "Waste Reduction",
+      "description": "We prioritize reducing food waste through careful portioning, composting, and recycling practices."
+    },
+    {
+      "name": "Ocean-Friendly Seafood",
+      "description": "We are committed to serving sustainably sourced seafood to promote the health of our oceans and marine life."
+    }
+  ],
 
   "events": [
     {
@@ -90,10 +88,8 @@
     }
   ],
 
-  "categories": [
-    {
-      "name": "Artisanal Appetizers",
-      "items": [
+  
+      "ArtisanalAppetizers": [
         {
           "name": "Mango Tango Ceviche",
           "description": "Fresh ceviche with mango, avocado, and citrus-infused seafood medley.",
@@ -120,11 +116,10 @@
           },
           "seasonal_availability": ["Year-round"]
         }
-      ]
-    },
-    {
-      "name": "Global Fusion Entrees",
-      "items": [
+      ],
+  
+    
+      "GlobalFusionEntrees": [
         {
           "name": "Saffron-Spiced Chicken Tikka Masala",
           "description": "Tender chicken tikka in a rich saffron-infused tomato curry, served with basmati rice.",
@@ -162,11 +157,11 @@
           },
           "seasonal_availability": ["Year-round"]
         }
-      ]
-    },
-    {
-      "name": "Epicurean Indulgences",
-      "items": [
+      ],
+   
+    
+
+      "EpicureanIndulgences": [
         {
           "name": "Passion Fruit Cheesecake",
           "description": "Creamy cheesecake with a tropical twist of passion fruit, topped with mango coulis.",
@@ -202,13 +197,11 @@
           },
           "seasonal_availability": ["Year-round"]
         }
-      ]
-    }
-  ],
-  
-  "seasonal_menu": {
-    "name": "Seasonal Symphony",
-    "items": [
+      ],
+    
+
+ 
+    "SeasonalSymphony": [
       {
         "name": "Butternut Squash Sage Risotto",
         "description": "Creamy risotto with roasted butternut squash, sage, and Parmesan cheese.",
@@ -241,5 +234,4 @@
         "seasonal_availability": ["Summer"]
       }
     ]
-  }
 }
