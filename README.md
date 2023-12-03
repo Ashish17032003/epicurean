@@ -1,6 +1,6 @@
 # roxWealth
 
-Brief description of your project.
+RoxWealth Frontend Developer Assessment.
 
 ## Prerequisites
 
@@ -20,30 +20,50 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    git clone https://github.com/Ashish17032003/roxWealth.git
    ```
-Navigate to the frontend directory:
+2. Navigate to the Cloned Directory
 
-bash
-Copy code
-cd your-project/frontend
-Install dependencies:
+   ```bash
+   cd roxWealth
+   ```
+  
+3. Navigate to the frontend directory:
 
-bash
-Copy code
-npm install
-Running the Application
-Start the Angular development server:
+   ```bash
+   cd frontend
+   ```
 
-bash
-Copy code
-ng serve
-This will compile the application and start a development server. You should see output similar to:
+4. Install all the dependencies:
 
-bash
-Copy code
-** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
-Open your web browser and go to http://localhost:4200/.
+   ```bash
+   npm i
+   ```
 
-You should see your Angular app running locally.
+5. Navigate to the backend directory:
 
-Usage
-Explain how to use the application, and any additional setup needed.
+   ```bash
+   cd roxWealth/backend
+   ```
+
+5. Start the json server:
+
+   ```bash
+   json-server --watch db.json
+   ```
+
+6. Open another terminal and navigate to frontend directory and start the frontend server:
+
+   ```bash
+   cd roxWealth/frontend
+   ng serve
+   ```
+
+   This will compile the application and start a development server which should be 
+   listening on localhost:4200 by default else you can select other ports that are 
+   available.
+
+
+   Open your web browser and go to http://localhost:4200/.
+
+   This will run the project locally.
+
+   ![Website Screenshot](image.png)
