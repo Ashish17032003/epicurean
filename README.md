@@ -1,6 +1,4 @@
-# roxWealth
-
-RoxWealth Frontend Developer Assessment.
+#Epicurean Symphony
 
 ## Prerequisites
 
