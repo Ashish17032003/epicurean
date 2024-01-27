@@ -1,4 +1,4 @@
-#Epicurean Symphony
+# Epicurean Symphony
 
 ## Prerequisites
 
